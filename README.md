@@ -37,8 +37,11 @@ For the DQN agent, the environment uses venv instead of Anaconda. It is importan
 
 - Step One:
     Set up the environment using the following steps:
+     ```
     python -m venv .env
+     ```
     source .env/bin/activate (This will be different for Windows architecture: use .env\Scripts\activate)
+  ```
     pip install -r DQNrequirements.txt
 
 
